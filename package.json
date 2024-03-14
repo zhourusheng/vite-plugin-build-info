@@ -1,8 +1,8 @@
 {
   "name": "vite-plugin-builder-info",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Vite plugin for adding build information to the generated index.html",
-  "main": "src/index.js",
+  "main": "./dist/index.cjs",
   "private": false,
   "keywords": [
     "vite",
@@ -10,10 +10,22 @@
     "build-info"
   ],
   "author": "zhourusheng",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
   "homepage": "https://github.com/zhourusheng/vite-plugin-build-info",
   "repository": {
     "type": "git",
     "url": "https://github.com/zhourusheng/vite-plugin-build-info"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.13.0"
+  }
 }
