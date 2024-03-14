@@ -1,0 +1,14 @@
+{
+  "name": "vite-plugin-builder-info",
+  "version": "0.0.1",
+  "description": "A Vite plugin for adding build information to the generated index.html",
+  "main": "src/index.js",
+  "private": false,
+  "keywords": [
+    "vite",
+    "plugin",
+    "build-info"
+  ],
+  "author": "zhourusheng",
+  "license": "MIT"
+}
