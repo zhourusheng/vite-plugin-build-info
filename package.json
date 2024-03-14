@@ -10,5 +10,10 @@
     "build-info"
   ],
   "author": "zhourusheng",
+  "homepage": "https://github.com/zhourusheng/vite-plugin-build-info",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhourusheng/vite-plugin-build-info"
+  },
   "license": "MIT"
 }
